@@ -1,0 +1,1028 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('../fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+.container{
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+header{
+    background-color: black ;
+    padding: 36px 0px;
+}
+.call-us a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.call-us, .logo{
+    color: white;
+}
+.header-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo img{
+    width: 244px;
+    height: auto;
+}
+.call-us p:first-child{
+    font-size: 25px;
+    color: #f16e43;
+    text-align: center;
+}
+.call-us p{
+    margin-bottom: 0px;
+}
+.call-us p:last-child{
+    font-size:40px;
+}
+.hero{
+    background-image: url("../images/hero-bg.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.hero-content p:first-child{
+    font-size: 28px;
+    padding-top: 75px;
+}
+.hero h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #f16e43;
+}
+.hero-last-p{
+    font-size: 28px;
+    padding: 30px 0px 30px;
+}
+ul{
+    list-style-image: url(../images/ul-type.png);
+}
+.hero li{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 20px;   
+}
+.hero li:last-child{
+    min-height: 142px;
+}
+.hero-form{
+    padding: 50px;
+    background-color: #17404c;
+    height: 100%;
+}
+.hero-form h3{
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.hero-form h3 span{
+    color: #f16e43;
+}
+.form-group label{
+    font-size: 17px;
+}
+.form-group input{
+    height: 50px;
+    margin-bottom: 25px;
+}
+#textarea{
+    height: 115px;
+    margin-bottom: 17px;
+}
+.hero-form button{
+    width: 100%;
+    padding: 18px 0px;
+    margin-top: 17px;
+    background-color: #f16e43;
+    color: white;
+    font-weight: 600;
+}
+.call-us-today{
+    background-color: #f16e43;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 16px 0px;
+}
+.call-us-today h3{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.call-us-today h3 span{
+    color: white;
+    font-weight: bold;
+}
+.call-us-today a{
+    text-decoration: none;
+    color: black;
+}
+.representation-service-content h3{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.representation-service-content p{
+    font-size: 28px;
+    color: #f16e43;
+    margin-bottom: 25px;
+}
+.representation-service-content li{
+    font-size: 24px;
+}
+.representation-service-content a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.service-img{
+    object-fit: contain;
+    overflow: hidden;
+}
+.service-img:last-child{
+    padding-top: 22px;
+}
+.representation-service-wrap{
+    padding: 140px 0px 105px;
+}
+.representation-service-image{
+    width: 100%;
+    min-height: 661px;
+}
+.location{
+    background-color: #ededed;
+}
+.location-wrap{
+    text-align: center;
+    padding:140px 0px 136px;
+}
+.location-wrap h5{
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.location-wrap p{
+    font-size: 21px;
+}
+.location-wrap img{
+    width: 140px;
+    height: 136px;
+    margin-bottom: 25px;
+}
+.location-list{
+    padding: 10px;
+}
+
+/*Start of Get Started*/
+.get-started{
+    background-color: #f16e43;
+    padding: 115px 0px;
+}
+.get-started-wrap{
+    text-align: center;
+    color: white;    
+}
+.get-started-wrap h3{
+    font-size: 46px;
+}
+.get-started-wrap p{
+    font-size: 30px;
+    padding-top: 55px;
+}
+.get-started-button{
+    padding-top: 70px;
+}
+.get-started-wrap a{
+    font-size: 33px;
+    padding: 12px 30px;
+    background-color: white;
+    text-decoration: none;
+    color: #f16e43;
+}
+
+/*End of Get Started*/
+
+/*Start of Our Client*/
+.our-client{
+    background-image: url("../images/ourClientsBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-client-wrap{
+    text-align: center;
+    color:white;
+    padding: 185px 0px 140px;
+}
+.our-client-wrap h3{
+    font-size:60px;
+}
+.our-client-wrap img{
+    padding: 15px 15px;
+    width: 100%;
+    height: 100%;
+}
+
+/*End of Our Client*/
+
+
+/*Start of Your Business Needs*/
+
+
+
+/* .business-need{
+    min-height: 990px;
+} */
+.business-need-content{
+    padding: 230px 0px 110px;
+}
+.business-need h5{
+    font-size: 62px;
+    font-weight: 600;    
+}
+.business-need-paraOne{
+    font-size: 24px;
+    color: #f16e43;
+    padding-top: 75px;
+}
+.business-need-paraTwo{
+    font-size: 21px;
+    padding-top: 45px;
+}
+.business-need-form{
+    padding: 157px 50px;
+    background-color: #17404c;
+    color: white;
+    height: 100%;
+}
+.business-need-form h3{
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.business-need-form h3 span{
+    color: #f16e43;
+}
+.form-group label{
+    font-size: 17px;
+}
+.form-group input{
+    height: 50px;
+    margin-bottom: 25px;
+}
+#textarea{
+    height: 115px;
+    margin-bottom: 17px;
+}
+.business-need-form button{
+    width: 100%;
+    padding: 18px 0px;
+    margin-top: 17px;
+    background-color: #f16e43;
+    color: white;
+    font-weight: 600;
+}
+
+
+/*End of Your Business Needs*/
+.copyright{
+    font-size: 24px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding: 39px;
+}
+
+
+
+/******Media Queries*****/
+
+
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 1091px){
+    header{
+        padding: 24px 0px;
+    }
+    .logo img{
+        width: 210px;
+        height: auto;
+    }
+    .call-us p:first-child{
+        font-size: 20px;
+    }
+    .call-us p:last-child{
+        font-size: 30px;
+    }
+    .call-us a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+    .hero-content p:first-child{
+        font-size: 24px;
+    padding-top: 55px;
+    }
+    .hero h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: #f16e43;
+    }
+    .hero-last-p{
+        font-size: 24px;
+        padding: 22px 0px 22px;
+    }
+    .hero li{
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 12px;
+    }
+    .hero-form{
+        padding: 40px;
+    }
+    .hero-form h3{
+        font-size: 24px;
+        padding-bottom: 32px;
+    }
+    .form-group label{
+        font-size: 16px;
+    }
+    .form-group input{
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .hero-form button{
+        padding: 10px 0px;
+        margin-top: 12px;
+    }
+    .call-us-today h3{
+        font-size: 34px;
+    }
+    .representation-service-wrap{
+        padding: 70px 0px 70px;
+    }
+    .representation-service-content h3{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .representation-service-content p{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .representation-service-content li{
+        font-size: 18px;
+    }
+    .representation-service-content a{
+        font-size: 18px;
+    }
+    .location-wrap{
+        padding: 80px 0px 60px;
+    }
+    .location-wrap img{
+        width: 130px;
+        height: 120px;
+        margin-bottom: 25px;
+    }
+    .location-wrap h5{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    .location-wrap p{
+        font-size: 16px;
+    }
+    .get-started{
+        padding: 65px 0px;
+    }
+    .get-started-wrap h3{
+        font-size: 36px;
+    }
+    .get-started-wrap p{
+        font-size: 22px;
+        padding-top: 41px;
+    }
+    .get-started-button {
+        padding-top: 50px;
+    }
+    .get-started-wrap a{
+        font-size: 22px;
+        padding: 10px 28px;
+    }
+    .our-client-wrap{
+        padding: 60px 0px 87px;
+    }
+    .our-client-wrap h3{
+        font-size: 42px;
+    }
+    .our-client-wrap img{
+        padding: 12px 12px;
+    }
+    .business-need-content{
+        padding: 100px 0px 67px;
+    }
+    .business-need h5{
+        font-size: 40px;
+    }
+    .business-need-paraOne{
+        font-size: 20px;
+        padding-top: 60px;
+    }
+    .business-need-paraTwo{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .business-need-form{
+        padding: 91px 40px 70px;
+    }
+    .business-need-form h3{
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+    .business-need-form input{
+        height: 36px;
+        margin-bottom: 20px;
+    }
+    .business-need-form button{
+        padding: 12px 0px;
+        margin-top: 12px;
+    }
+    .copyright{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .copyright p{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 991px){
+    header{
+        background-color: black;
+        padding: 36px 0px;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .call-us p:first-child{
+        font-size: 14px;
+    }
+    .call-us p:last-child{
+        font-size: 28px;
+    }
+    .hero-content p:first-child{
+        font-size: 20px;
+        padding-top: 36px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero-last-p{
+        font-size: 20px;
+        padding: 18px 0px 18px;
+    }
+    .hero li{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+    .hero-form{
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 36px;
+    }
+    .call-us-today h3{
+        font-size: 32px;
+    }
+    .representation-service-wrap{
+        padding: 70px 0px 25px;
+    }
+    .representation-service-content h3{
+        font-size: 35px;
+        margin-bottom: 22px;
+    }
+    .representation-service-content p{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .representation-service-content li{
+        font-size: 18px;
+    }
+    .representation-service-content a{
+        font-size: 18px;
+    }
+    .location-wrap{
+        padding: 80px 0px 60px;
+    }
+    .location-list{
+        padding: 10px;
+    }
+    .location-wrap img{
+        width: 115px;
+        height: 105px;
+        margin-bottom: 22px;
+    }
+    .location-wrap h5{
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 26px;
+    }
+    .location-wrap p{
+        font-size: 16px;
+    }
+    .get-started{
+        padding: 80px 0px;
+    }
+    .get-started-wrap h3{
+        font-size: 36px;
+    }
+    .get-started-wrap p{
+        font-size: 22px;
+        padding-top: 40px;
+    }
+    .get-started-button{
+        padding-top: 40px;
+    }
+    .get-started-wrap a{
+        font-size: 24px;
+        padding: 8px 24px;
+    }
+    .our-client-wrap{
+        padding: 100px 0px 80px;
+    }
+    .our-client-wrap h3{
+        font-size: 40px;
+    }
+    .business-need-content{
+        padding: 80px 0px 70px;
+    }
+    .business-need h5{
+        font-size: 42px;
+    }
+    .business-need-paraOne{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .business-need-paraTwo{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .business-need-form{
+        padding: 80px 50px;
+    }
+    .business-need-form h3{
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    .form-group label{
+        font-size: 16px;
+    }
+    .form-group input{
+        height: 42px;
+        margin-bottom: 22px;
+    }
+    .business-need-form button{
+        padding: 14px 0px;
+    }
+    .copyright{
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .copyright p{
+        margin-bottom: 0px;
+    }
+    .hero-form{
+        padding: 80px 50px;
+    }
+    .hero-form h3{
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    .form-group label{
+        font-size: 16px;
+    }
+    .form-group input{
+        height: 42px;
+        margin-bottom: 22px;
+    }
+    .hero-form button{
+        padding: 14px 0px;
+    }
+}
+@media screen and (max-width: 767px){
+    header{
+        padding: 28px 0px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .call-us p:first-child{
+        font-size: 12px;
+    }
+    .call-us p:last-child{
+        font-size: 20px;
+    }
+    .hero-content p:first-child{
+        font-size: 16px;
+        padding-top: 36px;
+    }
+    .hero h1{
+        font-size: 24px;
+    }
+    .hero-last-p{
+        font-size: 16px;
+        padding: 12px 0px 12px;
+    }
+    .hero li{
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+    .hero-form{
+        padding: 50px 40px;
+    }
+    .hero-form h3{
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+    .form-group label{
+        font-size: 14px;
+    }
+    .form-group input{
+        height: 36px;
+        margin-bottom: 14px;
+    }
+    .hero-form button{
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    .call-us-today h3{
+        font-size: 20px;
+    }
+    .representation-service-wrap{
+        padding: 35px 0px 25px;
+    }
+    .representation-service-content h3{
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .representation-service-content p{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .representation-service-content li{
+        font-size: 14px;
+    }
+    .representation-service-content a{
+        font-size: 14px;
+    }
+    .location-wrap{
+        padding: 50px 0px 40px;
+    }
+    .location-wrap img{
+        width: 95px;
+        height: 90px;
+        margin-bottom: 12px;
+    }
+    .location-wrap p{
+        font-size: 14px;
+    }
+    .get-started{
+        padding: 50px 0px;
+    }
+    .get-started-wrap h3{
+        font-size: 30px;
+    }
+    .get-started-wrap p{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .get-started-button{
+        padding-top: 18px;
+    }
+    .get-started-wrap a{
+        font-size: 20px;
+        padding: 8px 24px;
+    }
+    .our-client-wrap{
+        padding: 70px 0px 60px;
+    }
+    .our-client-wrap h3{
+        font-size: 32px;
+    }
+    .our-client-wrap img{
+        padding: 8px 8px;
+    }
+    .business-need-content{
+        padding: 55px 0px 50px;
+    }
+    .business-need h5{
+        font-size: 36px;
+    }
+    .business-need-paraOne{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .business-need-paraTwo{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .business-need-form{
+        padding: 80px 50px;
+    }
+    .business-need-form h3{
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+    .form-group label{
+        font-size: 12px;
+    }
+    .form-group input{
+        height: 32px;
+        margin-bottom: 12px;
+    }
+    .business-need-form button{
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+    .copyright p{
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 640px){
+
+    header{
+        padding: 16px 0px;
+    }
+    .logo img{
+        width: 130px;
+        margin-top: 30px;
+    }
+    .call-us{
+        padding-top: 30px;
+    }
+    .call-us p:first-child{
+        font-size: 12px;
+    }
+    .call-us p:last-child{
+        font-size: 20px;
+    }
+    .hero-content p:first-child{
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .hero h1{
+        font-size: 22px;
+    }
+    .hero-last-p{
+        font-size: 14px;
+        padding: 10px 0px 10px;
+    }
+    .hero li{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .hero-form{
+        padding: 50px 40px;
+    }
+    .hero-form h3{
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+    .form-group label{
+        font-size: 12px;
+    }
+    .form-group input{
+        height: 32px;
+        margin-bottom: 12px;
+    }
+    .hero-form button{
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    .representation-service-content h3{
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .representation-service-content p{
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .representation-service-content li{
+        font-size: 12px;
+    }
+    .representation-service-content a{
+        font-size: 12px;
+    }
+    .location-wrap img{
+        width: 85px;
+        height: 80px;
+        margin-bottom: 8px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    /* header{
+        background-color: black;
+        padding: 36px 0px;
+        height: 100vh;
+    }
+    .header-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        width: 140px;
+        height: auto;
+    }
+    .call-us{
+        padding-top: 30px;
+    }
+    .call-us p:first-child{
+        font-size: 20px;
+        color: #f16e43;
+    }
+    .call-us p:last-child{
+        font-size: 40px;
+    }
+    .call-us a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    } */
+}
